@@ -1,4 +1,3 @@
 luisguzman02.github.com
 =======================
-
-Resume
+Resume template
