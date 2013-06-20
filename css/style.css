@@ -180,7 +180,7 @@ dd {
     .col-one article {
         float:left;
         clear:left;
-        margin-bottom:1em;
+        margin-bottom:1.2em;
      }
     #contact-info {
         margin-bottom:2.5em;
@@ -244,8 +244,10 @@ dd {
     .job-desc {
         float:left;
         width:100%;
-        margin:0;
+        margin:5px 0;
         padding:0;
+        word-spacing: 0.2em;
+        line-height: 16px;
     }
     .col-two ul {
         padding:0;
