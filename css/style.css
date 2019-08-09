@@ -7,7 +7,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 
 body { margin: 0; font-size: 13px; line-height: 1.231; background: #f7f8f8; }
 
-body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #222; }
 
 a { color: #00e; }
 a:visited { }
@@ -51,7 +51,7 @@ a clean header font
 our mobile-first styles
 ************************/
 [role="main"] {
-    font-family: "OpenSansRegular";
+    font-family: "Open Sans";
     float:left;
     width:100%;
 }
@@ -88,12 +88,14 @@ header h2 {
     font-weight:normal;
 }   
 header h1 {
-    font-family: "OpenSansBold";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     font-size: 3em;
     margin-bottom:-0.1em;
 }
 header h2 {
-    font-family: "OpenSansRegular";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     font-size: 2em;
 }
 article hgroup {
@@ -301,7 +303,7 @@ larger displays
         -webkit-box-shadow: 0 0 3px 2px #ccc;
         -moz-box-shadow: 0 0 3px 2px #ccc;
         box-shadow: 0 0 3px 2px #ccc;
-		background: white;
+    background: white;
     }
     .job-start,
     .job-end {
